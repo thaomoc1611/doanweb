@@ -25,7 +25,7 @@ class LoginController extends Controller
 
         if ($email == '3107manhhung02@gmail.com' && $password == 'hung123456') {
             // Tài khoản và mật khẩu khớp
-            return redirect('/admin/index');
+            return redirect('/admin');
         } else {
             // Tài khoản và mật khẩu không khớp
             return redirect('/');

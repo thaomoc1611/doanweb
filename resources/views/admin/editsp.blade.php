@@ -4,6 +4,8 @@
   <title>Thêm thông tin sản phẩm</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
     label {
       display: block;
@@ -90,7 +92,7 @@
         <input type="text" class="form-control" name="tinh_trang" id="tinh_trang" value="{{$products->tinhtrang}}">
       </div>
 
-      <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+      <button type="submit" class="btn btn-primary">Sửa sản phẩm</button>
       @csrf
     </form>
   </div>
