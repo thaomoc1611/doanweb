@@ -5,12 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style-iphone.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style-iphone.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="library/assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Iphone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -18,66 +25,78 @@
 </head>
 
 <body class="">
-
     <header>
-        <section class="navbar">
-            <div class="container">
-                <!-- header -->
-                <div class="header ">
-                <div class="logo">
-                    <a href="/" title="Logo">
-                        <img src="/images/logo.jpg" alt="Logo" class="img-responsive" height="50px">
-                    </a>
-                    <a href="https://www.apple.com/">
-                        <img src="/images/APR_logo.png" alt="Logo" class="img-autho">
-                    </a>
-                </div>
-                    <ul class="menu">
-                <li class="menu-ip ">
-                    <a href="/iphone">
-                        <span>iPhone</span>
-                    </a>
-                </li>
-                <li class="menu-mac ">
-                    <a href="/mac">
-                        <span>Mac</span>
-                    </a>
-                </li>
-                <li class="menu-ipad ">
-                    <a href="/ipad">
-                        <span>iPad</span>
-                    </a>
-                </li>
-                <li class="menu-watch active">
-                    <a href="/apple-watch">
-                        <span>Watch</span>
-                    </a>
-                </li>
-                <li class="menu-sound ">
-                    <a href="/am-thanh">
-                        <span>Âm thanh</span>
-                    </a>
-                </li>
-                <li class="menu-access ">
-                    <a href="/phu-kien">
-                        <span>Phụ kiện</span>
-                    </a>
-                </li>
-
-            </ul>
-                    <form class="form-search" onsubmit="return false;">
-                        <div class="click-search active">
-                            <i class="topzone-search"></i>
-                            <input type="text" placeholder="Tìm kiếm sản phẩm">
-                            <i class="topzone-delSearch"></i>
-                        </div>
-                        <button type="submit" class="submit-search" style="display:none">
-                        </button>
-                        <div class="sg-search" style="display: none;"></div>
-                    </form>
-                </div>
-            </div>
-        </section>
+      <div class="head">
+        <div class="logo">
+          <a href="index.html" title="Logo">
+            <img
+              src="images/logo.jpg"
+              alt="Logo"
+              class="img-responsive"
+              height="50px"
+            />
+          </a>
+          <a href="#">
+            <img src="images/APR_logo.png" alt="Logo" class="img-autho" />
+          </a>
+        </div>
+        <ul class="menu">
+          <li class="menu-ip">
+            <a href="/iphone">
+              <span>iPhone</span>
+            </a>
+          </li>
+          <li class="menu-mac">
+            <a href="/mac">
+              <span>Mac</span>
+            </a>
+          </li>
+          <li class="menu-ipad">
+            <a href="/mac">
+              <span>iPad</span>
+            </a>
+          </li>
+          <li class="menu-watch">
+            <a href="/apple-watch">
+              <span>Watch</span>
+            </a>
+          </li>
+          <li class="menu-sound">
+            <a href="/am-thanh">
+              <span>Âm thanh</span>
+            </a>
+          </li>
+          <li class="menu-access">
+            <a href="/phu-kien">
+              <span>Phụ kiện</span>
+            </a>
+          </li>
+        </ul>
+        <div class="search-cart">
+          <div class="search-sp">
+            <i class="topzone-search"></i>
+          </div>
+          <a href="/cart" class="cart">
+            <i class="topzone-cart"></i>
+          </a>
+        </div>
+        <form class="form-search" onsubmit="return false;">
+          <div class="click-search active">
+            <i class="topzone-search"></i>
+            <input type="text" placeholder="Tìm kiếm sản phẩm" />
+            <i class="topzone-delSearch"></i>
+          </div>
+          <button
+            type="submit"
+            class="submit-search"
+            style="display: none"
+          ></button>
+          <div class="sg-search" style="display: none"></div>
+        </form>
+        <div>
+            <a href="/admin/login" class="btn btn-primary">Login</a>
+        </div>
+      </div>
     </header>
     <div class="bg-sg"></div>
     <h1 hidden="">Watch</h1>
