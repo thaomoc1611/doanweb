@@ -61,7 +61,7 @@ Route::get('/product1', function () {
     return view('product1');
 });
 
-Route::get('/admin/index', function () {
+Route::get('/admin', function () {
     return view('/admin/index');
 });
 // Route::get('/admin/client', function () {
